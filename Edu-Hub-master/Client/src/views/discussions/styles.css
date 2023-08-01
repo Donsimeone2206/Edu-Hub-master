@@ -1,0 +1,53 @@
+.customcard  {
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.commentcard{
+  max-height: fit-content;
+  overflow-y: auto;
+  overflow-x: auto;
+  margin: 10px;
+}
+
+.postButton{
+  background-color: greenyellow;
+}
+
+.innerCommentcard{
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.cmntData{
+  overflow-x: auto;
+  overflow-y: auto;
+  max-height: fit-content;
+  white-space: pre;
+}
+
+.dis{
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: auto;
+  white-space: pre;
+}
+
+.container{
+  margin-top: 30px;
+  align-items: center;
+  align-content: center;
+}
+.txt{
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  position: relative;
+  float: left;
+  white-space: normal;
+}
+.deleteButton{
+  position: relative;
+  float: right;
+}

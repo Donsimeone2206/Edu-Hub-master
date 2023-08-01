@@ -1,0 +1,58 @@
+.articles-wrapper {
+  padding: 14px 24px 0;
+}
+
+.article-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 18px;
+}
+
+.article-card-container {
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 12px;
+  transition: all 0.2s ease-in-out;
+  white-space: pre-wrap;
+}
+
+.article-card-container:hover {
+  transform: scale(1.02);
+}
+
+p{
+  max-height: 100px;
+  overflow: hidden;
+  white-space: pre-wrap;
+}
+
+.like-container {
+  font-size: 18px;
+}
+
+.likes-count {
+  margin-right: 8px;
+}
+
+.bookmark-container {
+  font-size: 18px;
+}
+
+.viewButton{
+  float:right ; 
+  color:royalblue ; 
+}
+
+.iconButton{
+  border:0px ; 
+  float:right ; 
+  color:royalblue ; 
+}
+
+.onLoadMore{
+  margin-left: 40%;
+  margin-top:50px ; 
+}
